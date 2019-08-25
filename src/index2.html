@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Clave Unica</title>
+
+  <!--Enlace a Css -->
+  <link rel="stylesheet" href="style.css" />
+  <!--Icono en la pestaña del titulo de la página -->
+  <link rel="icon" href="https://i2.wp.com/duckoutescape.es/wp-content/uploads/2017/02/Logo-Llave.png?ssl=1"
+    class="miniIcono">
+</head>
+
+<body>
+  <div id="root">
+    
+    <form>
+
+      <h1>Clave Segura</h1>
+
+      <p>Para poder crear tu contraseña segura sigue los siguientes pasos <br> que te indicaremos</p>
+
+      <input type="text" id="ingNum" placeholder="Danos un número" maxlength="2"> <br> <br>
+
+      <textarea id="ingText" rows="5" cols="30" placeholder="Escribe una palabra"></textarea> <br><br>
+
+      <button type="button" id="botonUno">Crear Clave</button> <button type="button" id="botonDos">Descubre</button>
+      <br><br>
+
+      <textarea id="textoFinal" type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></textarea>
+      <br>
+
+      <p>¿Quieres saber cual es la palabra que habias puesto? <br>
+        Copia y pega la clave que hemos creado para ti en el casillero "Escribe una palabra" y luego "Descubre"
+      </p>
+
+      <input class="link" type="Reset" value="Limpiar"> <br><br>
+
+      <a class="link2" href="index.html">VOLVER</a>
+
+    </form>
+
+  </div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
