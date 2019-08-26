@@ -1,18 +1,18 @@
 # Clave Segura
 
-Fue creado con la intención de facilitar al cliente el poder crear una clave correcta para distintas funciones tanto como para sus cuentas privadas de banco o para algo tan sencillo como una aplicación en su celular, de este modo, facilitamos la tarea de crear una cuenta poco segura para sus aplicaciones.
+Este proyecto fue realizado con la intención de facilitar al cliente el poder crear una clave correcta para distintas funciones tanto como para sus cuentas privadas de banco o para algo tan sencillo como una aplicación en su celular, de este modo, facilitamos la tarea de crear una cuenta poco segura para sus aplicaciones.
 
-Cualquier persona que necesite de una clave, ya sea para Facebook, cuentas de banco o para alguna aplicación en particular puede usar nuestro producto.
+Esta enfocado en un publico general, mayormente jovenes y adultos, aunque cualquier persona que necesite de una clave, ya sea para Facebook, cuentas de banco o para alguna aplicación en particular puede usar nuestro producto.
 
 El código fue creado a partir de la fórmula [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher), donde utilizamos mayormente el alfabeto y la numeración para crear un código difícil de entender para quien no conoce la formula.
 
 ## Diseño de la página web
 
-Quería que fuera un diseño limpio, de fácil lectura para el usuario, sin ruido al momento de entrar en la página, que el cliente solo se enfoque en crear su clave, es por eso que se llegó a la conclusión de que un ambiente minimalista sería el más adecuado. 
+Quería que fuera un diseño limpio, de fácil lectura para el usuario, sin ruido al momento de entrar en la página, que el cliente solo se enfoque en crear su clave, es por eso que se llegué a la conclusión de que un ambiente minimalista sería el más adecuado ya que deseaba que la pagina dejara sólo lo esencial y el cliente solo se enfocara en crear su clave.
 
 Para llegar al diseño final me base en varias entrevistas con diferentes usuarios de los cuales tome varios consejos para poder llegar a un diseño más entendible y de fácil uso.
 
-El primer proyecto no dejaba al usuario tener un fácil acceso dado que poseía muchas páginas innecesarias haciendo que varios entrevistados se fastidiaran, es por eso que se eliminaron tres páginas para finalmente dejar solo dos, donde una solo es una introducción a la aplicación y la otra tiene todo el proceso del código.
+El primer proyecto no dejaba al usuario tener un fácil acceso dado que poseía muchas páginas innecesarias haciendo que varios entrevistados se fastidiaran, es por eso que se eliminaron tres páginas para finalmente dejar sólo dos, donde una es una introducción a la aplicación y la otra tiene todo el proceso del código.
 
 
 ## Ejemplos del primer proyecto:   
@@ -32,7 +32,7 @@ El primer proyecto no dejaba al usuario tener un fácil acceso dado que poseía 
 
 ## Producción 
 ### Index.Html
-Se comenzó con un index.html donde se creó la primera estructura, aunque esta no mantiene ninguna funcionalidad especial con JavaScript para poder interactuar en la página,sirve como introducción.
+Se comenzó con un index.html donde se creó la primera estructura, aunque esta no mantiene ninguna funcionalidad especial con JavaScript para poder interactuar en la página, sólo sirve como introducción.
 
 ### Index.Html2
 
@@ -55,7 +55,7 @@ Aquí es donde se encuentra la lógica de la página, donde hacemos trabajar ENC
 - Un número.
 - Una palabra.
 - Si desea crear una clave apriete el botón “Crear clave”
-- Leer el casillero “Resultados” y descubrirá su nueva clave.
+- Lea el casillero “Resultados” y descubrirá su nueva clave.
 - Para decifrar su clave secreta, ingrese el mismo número (Casillero “Danos un número”) y copie el texto que es su nueva clave (Casillero “Escriba una palabra”)
 - Leer el casillero “Resultados” y descubrirá la palabra secreta que había puesto anteriormente.
 - Use el botón “Limpiar” para poder hacer una nueva clave si lo desea.
@@ -68,3 +68,4 @@ https://cotevd.github.io/TrabajoCifradoCesar/
 https://www.hazloconceramicos.com/blog/5-caracteristicas-del-diseno-minimalista-moderno/
 https://grecia2727.github.io/lim-2018-05-bc-core-am-cipher/
 https://developer.mozilla.org/es/
+https://lms.laboratoria.la/courses
