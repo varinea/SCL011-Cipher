@@ -4,7 +4,7 @@ botonUno.addEventListener("click", () => {
   let textusuario = document.getElementById("ingText").value;
   let numusuario = document.getElementById("ingNum").value;
   window.cipher.encode(textusuario, numusuario);
-  document.getElementById("textoFinal").innerHTML = window.cipher.encode(textusuario, numusuario);
+  document.getElementById("textoFinal").innerHTML = cipher.encode(textusuario, numusuario);
 
 });
 
@@ -14,6 +14,6 @@ botonDos.addEventListener("click", () => {
   let textusuario = document.getElementById("ingText").value;
   let numusuario = document.getElementById("ingNum").value;
   window.cipher.encode(textusuario, numusuario);
-  document.getElementById("textoFinal").innerHTML = window.cipher.decode(textusuario, numusuario);
+  document.getElementById("textoFinal").innerHTML = cipher.decode(textusuario, numusuario);
 
 });

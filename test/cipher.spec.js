@@ -1,5 +1,3 @@
-import { encode } from "punycode";
-
 describe('cipher', () => {
 
   it('debería ser un objeto', () => {
@@ -16,6 +14,7 @@ describe('cipher', () => {
     assert.equal(window.cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 33), "HIJKLMNOPQRSTUVWXYZABCDEFG")
 
   });
+});
 
   describe('cipher.decode', () => {
 
@@ -24,7 +23,7 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {  
-    assert.equal(window.cipher.deencode("HIJKLMNOPQRSTUVWXYZABCDEFG", 33), "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    assert.equal(window.cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG", 33), "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
   }); 
 });
-
+});

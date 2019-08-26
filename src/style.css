@@ -1,25 +1,18 @@
-/* Acá va tu código */
-
 form {
-
+  padding: 10px;
+  width: 500px;
   text-align: center;
-
-}
-.imagen {
- 
-  text-align: center;
+  margin: auto;
 }
 
 h1 {
   color:#1F3769;
-  text-align: center;
   padding: 1px;
   font-family: sans-serif;
-  text-align: center;
 }
 
 p {
-  text-align: center;
+  text-align: justify; 
   color: #9F9E9E;
   font-family: sans-serif;
   font-size: 18px;
@@ -29,47 +22,41 @@ p {
 textarea {
   font-family: sans-serif;
   padding: 10px;
-  text-align: center;
+ 
 }
 
 button {
-    background-color: #E9E9E9;
-    color: #919090;
-    font-family: sans-serif;
-    font-size: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    width: 150px;
-    text-align: center;
+  background-color: #E9E9E9;
+  color: #919090;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
 }
 
 body {
-    background-image: url(https://pbs.twimg.com/media/ECYcA0bXsAIb2xC?format=jpg&name=large);
-    background-size: auto;
+  background-image: url(https://pbs.twimg.com/media/ECYcA0bXsAIb2xC?format=jpg&name=large);
+  background-size: auto;
 }
 
 .link {
   background-color: #E9E9E9;
   font-family: sans-serif;
   color: #919090;
-    font-size: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    width: 150px;
-    text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
 }
 
 .link2 {
   text-align: center;
-    font-size: 15px;
-    color: #7D7C7C;
-    font-family: sans-serif;
-    text-decoration: none;
-    display: block;
-    padding-block-start: 15px;
-    width: 150px;
-    padding: 10px; 
-    margin: auto;
-    background-color: #EFEFEF;
-    border-radius: 8px;
+  font-size: 16px;
+  color:#1F3769;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif, bold;
+  text-decoration: none;
+    
 }
